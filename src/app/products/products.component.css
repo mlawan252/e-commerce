@@ -1,0 +1,26 @@
+li{
+    list-style: none;
+    
+}
+.products{
+    background-color: #ffcd9e;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.Prod-prop{
+    text-align: center;
+}
+button{
+    padding: 15px 30px;
+    background-color: #ff7a00;
+    font-size: 14px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.fas{
+    opacity: 0.6;
+}

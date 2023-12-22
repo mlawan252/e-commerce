@@ -1,0 +1,37 @@
+.home-comp img{
+    width:600px;
+    display: inline;
+    height: 450px;
+    
+}
+.home-comp{
+    background-color:#ffcd9e;
+    display: flex;
+    justify-content: center;
+}
+
+.home-comp .img-discrip{
+    width :100px;
+    margin-top: 80px;
+    letter-spacing: 2px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #FF7A00;
+    line-height: 40px;
+
+}
+.btn-shop{
+    text-align: center;
+    background-color: #ffcd9e;
+    
+    
+}
+.btn-shop button{
+    margin-bottom: 30px;
+    background-color: #FF7A00;
+    padding: 16px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

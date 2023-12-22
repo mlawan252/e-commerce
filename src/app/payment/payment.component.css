@@ -1,0 +1,49 @@
+.uc-m-footer button{
+    padding: 15px 30px;
+    background-color: #ff7a00;
+    font-size: 14px;
+    border: 0;
+    border-radius: 6px;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+.uc-modal{
+    position: fixed;
+    background-color: rgb(241, 221, 179);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.uc-m-contents{
+    background: #b68a63;
+    max-width: 40%;
+    margin: 5% auto;
+    
+}
+.uc-m-header{
+    padding: 20px;
+    background: #ff7a00;
+    color: rgb(46, 55, 63);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.uc-m-header h4{
+    margin: 0;
+}
+.uc-m-body{
+    padding: 20px;
+    
+}
+.uc-m-footer{
+    padding: 20px;
+    border-top: 1px solid black;
+}
+.uc-m-body input{
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 4px;
+    border: none;
+}

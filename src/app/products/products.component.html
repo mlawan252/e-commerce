@@ -1,0 +1,14 @@
+<div class="products">
+    <div *ngFor="let product of products">
+        <ol class="products-list">
+            <li><img src="{{product.img}}" alt=""></li>
+            <li class="Prod-prop">{{product.name}}</li>
+            <li class="Prod-prop" >{{product.price | currency}}</li>
+            <li class="Prod-prop" [ngClass]="{'fas':product.inCart==true}"><button (click)="sendProduct(product)">
+                <span *ngIf="product.inCart==false" >ADD TO CART</span>
+                <span *ngIf="product.inCart==true" >REMOVE FROM CART</span>
+            </button></li>
+        </ol>
+    </div>
+</div>
+

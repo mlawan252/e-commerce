@@ -1,0 +1,29 @@
+<div class="uc-modal">
+    <div class="uc-m-contents">
+        <div class="uc-m-header">
+            <h4>payment form</h4>   
+        </div>
+        <div class="uc-m-body">
+            <input type="text" placeholder="Full Name">
+            <input type="number" placeholder="Phone Number">
+            <input type="text" placeholder="Email Address">
+            <input type="text" placeholder="Delivery Address">
+
+            <!-- <h3>Payment Details</h3>
+            <input type="text" placeholder="Amount To be Paid: 2300" disabled>
+            <input type="text" placeholder="Card Number 0000-1111-2222-3333">
+            <input type="text" placeholder="Card CVV ***">
+            <input type="text" placeholder="Expiry Month">
+            <input type="text" placeholder="Expiry Year"> -->
+
+            <ol *ngFor="let rec of receipts" >
+                <li>{{rec.amount}}</li>
+            </ol>
+            {{amt}}
+        </div>
+       
+        <div class="uc-m-footer">
+            <button>CLICK TO PAY</button>
+    </div>
+    <div><p>Thank you</p></div>
+</div>

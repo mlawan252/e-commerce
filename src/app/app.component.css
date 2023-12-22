@@ -1,0 +1,41 @@
+.c-first{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #ffcd9e; */
+    background-color: black;
+    color: #FF7A00;
+}
+.c-head ol{
+   display: flex;
+       
+}
+.c-head{
+    padding-bottom: 8px;
+}
+.c-head ol li{
+    list-style: none;
+    margin-left:12px;
+} 
+.ems{
+    color: wheat;
+}   
+
+.c-head ol li a{
+    color: wheat;
+    text-decoration: none;
+}
+.contents{
+    margin: 0;
+}
+.cart-link p a{
+    color: wheat;
+    text-decoration: none;
+}
+.cart-link p span{
+    font-size: 20px;
+    margin-left: 2px;
+    color: #FF7A00;
+}
+
+
+

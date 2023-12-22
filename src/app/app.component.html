@@ -1,0 +1,23 @@
+<div class="home-comp">
+  <div class="contents">
+    <div class="c-first">
+      <div>
+        <p class="ems">EMS</p>
+      </div>
+      <div class="c-head">
+        <ol>
+          <li><a routerLink="/">Home</a></li> 
+          <li><a routerLink="products">Products</a></li>
+             
+        </ol>
+      </div>
+      <div class="cart-link">
+<p><a routerLink="cart">CART <span>{{qty}}</span></a></p> 
+      </div>
+    </div>
+    
+    <div class="c-body">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
